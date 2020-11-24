@@ -60,9 +60,9 @@ function draw() {
   drawSprites();
  
 }
-function keypressed(){
-  if (keyCode === 32){
-    bob1.Matter.Body.applyForce(bob1.body,bob1.body.position,{x:-750,y:0})
+function keyPressed(){
+  if (keyCode === UP_ARROW){
+    Matter.Body.applyForce(bob1.body,bob1.body.position,{x:-50,y:-45})
   }
 }
     
